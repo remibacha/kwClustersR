@@ -1,0 +1,19 @@
+#Consider you have a dataset named "df", with a column named "keywords"
+
+#1. Define the number of cluster you want to create
+kclusters = round(0.90 * length(unique(df$keywords)))
+
+#2. Compute distance metrics between strings
+uniqueThema <- unique(as.character(df$keywords))
+distancemodels <- stringdistmatrix(uniqueThema,uniqueThema,method = "jw")
+
+#3. Plot the cluster dendrogram
+rownames(distancemodels) <- uniqueThema
+hc <- hclust(as.dist(distancemodels))
+par(mar = rep(2, 4))#This line helps us to avoid the "figure margins too large" error
+plot(hc) #Create a plot with clusters
+
+#4. Get your cluster file
+dfClust <- data.frame(uniqueThema, cutree(hc, k=kclusters))
+names(dfClust) <- c('Thema','cluster')
+plot(table(dfClust$cluster))
