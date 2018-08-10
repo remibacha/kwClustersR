@@ -10,6 +10,10 @@ Copy and paste [the step3 script](https://github.com/remibacha/kwClustersR/blob/
 Replace the pathxlsx line with your own path.
 Then run the script and enjoy!
 
+## Install
+```
+devtools::install_github("ColinFay/lexiquer")
+```
 
 ## Feedbacks
 Questions and feedbacks welcome!
