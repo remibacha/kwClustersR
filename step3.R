@@ -23,7 +23,7 @@ df <-  read_excel(pathxlsx,
 
 
 #3. Create the function to clusterize keywords
-kwClusters <- function(df,ratio) {
+kwClustersR <- function(df,ratio) {
       #Define the number of cluster you want to create
       kclusters = round(ratio * length(unique(df$Keyword)))
   
@@ -46,5 +46,5 @@ kwClusters <- function(df,ratio) {
 }
 
 
-#4. Start kwClusters
-kwClusters(df,0.9)
+#4. Start kwClustersR
+kwClustersR(df,0.9)
