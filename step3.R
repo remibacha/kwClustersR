@@ -1,4 +1,7 @@
-#Consider you have a dataset named "keyword_list.xlsx", with a column named "Keyword" with all your keywords in it.
+### kwClustersR.R
+### version 1.0 @RemiBacha
+### https://remibacha.com
+
 
 #1. Install and load needed R packages
 list.of.packages <- c("readxl", "stringdist")
