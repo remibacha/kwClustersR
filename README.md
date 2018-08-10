@@ -12,7 +12,7 @@ Then run the script and enjoy!
 
 ## Install
 ```
-devtools::install_github("ColinFay/lexiquer")
+devtools::install_github("remibacha/kwClustersR")
 ```
 
 ## Feedbacks
