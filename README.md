@@ -1,5 +1,6 @@
 # kwClustersR
-This R script helps you to create clusters from a keyword list to speed up your SEO keyword research
+This R script helps you to create clusters from a keyword list to speed up your SEO keyword research.
+The script is fully explained on my blog post "[Clusteriser ses mots-clés avec R](https://remibacha.com/clusteriser-mots-cles/) (French)"
 
 ## Getting started
 You first need to have your keyword list into a file called keyword_list.xlsx. Keywords should be in a column called "Keyword".
