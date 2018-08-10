@@ -42,4 +42,4 @@ kwClusters <- function(df,ratio) {
 }
 
 #4. Start kwClusters
-kwClusters(df,0.4)
+kwClusters(df,0.9)
