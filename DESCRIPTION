@@ -1,0 +1,14 @@
+Package: kwClustersR
+Type: Package
+Title: Creates clusters from a keyword list to speed up your SEO keyword research
+Version: 0.1.0
+Author: Rémi Bacha
+Maintainer: Rémi Bacha <hello@remibacha.com>
+Description: This package clusterize your keywords into keywords groups.
+        It uses the Jaro Winkler distance algorithm to create clusters.
+        You can specify the cluster ratio to manage the size of your keywords groups.
+        Try several ratio to adjust your keyword clusterisation.
+License: GPL-2
+Encoding: UTF-8
+LazyData: FALSE
+Imports: readxl, stringdist
