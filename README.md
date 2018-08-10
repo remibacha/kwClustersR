@@ -1,18 +1,31 @@
 # kwClustersR
 This R script helps you to create clusters from a keyword list to speed up your SEO keyword research.
-The script is fully explained on my blog post "[Clusteriser ses mots-clés avec R](https://remibacha.com/clusteriser-mots-cles/) (French)"
-
-## Getting started
-You first need to have your keyword list into a file called keyword_list.xlsx. Keywords should be in a column called "Keyword".
-Check the [keyword_list.xlsx](https://github.com/remibacha/kwClustersR/blob/master/keyword_list.xlsx?raw=true) example.
-
-Copy and paste [the step3 script](https://github.com/remibacha/kwClustersR/blob/master/step3.R) into a new script in R Studio.
-Replace the pathxlsx line with your own path.
-Then run the script and enjoy!
+The script is explained step by step on my blog post "[Clusteriser ses mots-clés avec R](https://remibacha.com/clusteriser-mots-cles/) (French)"
 
 ## Install
 ```
 devtools::install_github("remibacha/kwClustersR")
+```
+
+## Getting started
+Load the folowing packages
+```
+library(kwClustersR)
+library(readxl)
+library(stringdist)
+```
+
+Load Your keyword list into R. It should contain a column called "Keyword" with all your keywords in it. Check the [keyword_list.xlsx](https://github.com/remibacha/kwClustersR/blob/master/keyword_list.xlsx?raw=true) example.
+
+
+```
+pathxlsx <- '/Users/Downloads/keyword_list.xlsx'
+df <-  read_excel(pathxlsx, sheet = 1, col_names = TRUE, na = "", skip=0)
+```
+
+Call the kwClustersR function by specified 2 arguments (your dataset, the clusters ratio)  and enjoy!
+```
+kwClustersR(df,0.9)
 ```
 
 ## Feedbacks
