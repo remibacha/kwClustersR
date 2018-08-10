@@ -12,4 +12,5 @@ Then run the script and enjoy!
 
 ## Feedbacks
 Questions and feedbacks welcome!
+
 You want to contribute ? Open a pull request ;-) If you encounter a bug or want to suggest an enhancement, please open an issue.
