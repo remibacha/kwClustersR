@@ -28,6 +28,8 @@ Call the kwClustersR function by specified 2 arguments (your dataset, the cluste
 kwClustersR(df,0.9)
 ```
 
+Don't forget to check the Plots tab in your R Studio. 2 graphics has been created here.
+
 ## Feedbacks
 Questions and feedbacks welcome!
 
