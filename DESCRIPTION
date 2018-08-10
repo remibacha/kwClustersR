@@ -1,6 +1,6 @@
 Package: kwClustersR
 Type: Package
-Title: Creates clusters from a keyword list to speed up your SEO keyword research
+Title: Creates clusters from keywords
 Version: 0.1.0
 Author: Rémi Bacha
 Maintainer: Rémi Bacha <hello@remibacha.com>
