@@ -11,6 +11,7 @@ if(length(new.packages)) install.packages(new.packages)
 library(readxl)
 library(stringdist)
 
+
 #2. Open your keyword_list.xlsx dataset in R Studio
 pathxlsx <- '/Users/remi/Downloads/keyword_list.xlsx'
 
@@ -43,6 +44,7 @@ kwClusters <- function(df,ratio) {
   
       View(dfClust)
 }
+
 
 #4. Start kwClusters
 kwClusters(df,0.9)
