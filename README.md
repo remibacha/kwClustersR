@@ -10,7 +10,7 @@ devtools::install_github("remibacha/kwClustersR")
 ```
 
 ## Getting started
-Load the folowing packages
+Load the following packages
 ```
 library(kwClustersR)
 library(readxl)
