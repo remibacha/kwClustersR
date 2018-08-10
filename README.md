@@ -1,5 +1,7 @@
 # kwClustersR
-This R script helps you to create clusters from a keyword list to speed up your SEO keyword research.
+This R package helps you to create clusters from a keyword list to speed up your SEO keyword research.
+It uses the Jaro Winkler distance algorithm to create clusters. You can specify the cluster ratio to manage the size of your keywords groups. Try several ratio to adjust your keyword clusterisation.
+        
 The script is explained step by step on my blog post "[Clusteriser ses mots-clés avec R](https://remibacha.com/clusteriser-mots-cles/) (French)"
 
 ## Install
