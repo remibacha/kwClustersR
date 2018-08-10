@@ -15,7 +15,7 @@ library(readxl)
 library(stringdist)
 ```
 
-Load Your keyword list into R. It should contain a column called "Keyword" with all your keywords in it. Check the [keyword_list.xlsx](https://github.com/remibacha/kwClustersR/blob/master/keyword_list.xlsx?raw=true) example.
+Load your keyword list into R. It should contain a column called "Keyword" with all your keywords in it. Check the [keyword_list.xlsx](https://github.com/remibacha/kwClustersR/blob/master/keyword_list.xlsx?raw=true) example.
 
 
 ```
