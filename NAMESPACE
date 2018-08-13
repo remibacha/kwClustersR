@@ -1,3 +1,4 @@
 export(kwClustersR)
-import(readxl)
-import(stringdist)
+importFrom("graphics", "par", "plot")
+importFrom("stats", "as.dist", "cutree", "hclust")
+importFrom("utils", "View")
