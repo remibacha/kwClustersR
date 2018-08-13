@@ -1,9 +1,7 @@
 #' @title Create Clusters from a Keyword List
 #'
 #' @description kwClustersR regoupes your keywords into keywords clusters. It uses the Jaro–Winkler distance algorithm to create clusters. You can specify the cluster ratio to manage the size of your keywords groups. Try several ratio to adjust your keyword clusterization.
-#'
-#' @author Rémi Bacha
-#'
+#' 
 #' @param df
 #' @param ratio
 
@@ -11,7 +9,8 @@
 #'
 #' @examples kwClustersR(df,0.9)
 #'
-#' @export 
+#' @export kwClustersR
+
 kwClustersR <- function(df,ratio) {
   #Define the number of cluster you want to create
   kclusters = round(ratio * length(unique(df$Keyword)))
