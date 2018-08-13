@@ -1,14 +1,17 @@
 Package: kwClustersR
 Type: Package
-Title: Creates clusters from keywords
+Title: Create Clusters from a Keyword List
 Version: 0.1.0
-Author: Rémi Bacha
+Author: person("Rémi", "Bacha", email = "hello@remibacha.com", role = c("aut", "cre"))
 Maintainer: Rémi Bacha <hello@remibacha.com>
-Description: This package clusterize your keywords into keywords groups.
-        It uses the Jaro Winkler distance algorithm to create clusters.
+Description: kwClustersR regoupes your keywords into keywords clusters.
+        It uses the Jaro–Winkler distance algorithm to create clusters.
         You can specify the cluster ratio to manage the size of your keywords groups.
-        Try several ratio to adjust your keyword clusterisation.
+        Try several ratio to adjust your keyword clusterization.
+URL: https://github.com/remibacha/kwClustersR
+BugReports: https://github.com/remibacha/kwClustersR/issues
 License: GPL-2
+Depends: R (>= 3.4.0)
 Encoding: UTF-8
 LazyData: FALSE
 Imports: readxl, stringdist
