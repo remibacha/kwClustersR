@@ -1,4 +1,4 @@
 export(kwClustersR)
-importFrom("graphics", "par", "plot")
-importFrom("stats", "as.dist", "cutree", "hclust")
-importFrom("utils", "View")
+importFrom(graphics, par, plot)
+importFrom(stats, as.dist, cutree, hclust)
+importFrom(utils, View)
