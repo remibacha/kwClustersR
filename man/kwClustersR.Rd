@@ -1,12 +1,12 @@
-\name{hello}
-\alias{hello}
-\title{Hello, World!}
+\name{kwClustersR}
+\alias{kwClustersR}
+\title{Create Clusters from a Keyword List}
 \usage{
-hello()
+kwClustersR()
 }
 \description{
-Prints 'Hello, world!'.
+Prints 'kwClustersR regoupes your keywords into keywords clusters. It uses the Jaro–Winkler distance algorithm to create clusters. You can specify the cluster ratio to manage the size of your keywords groups. Try several ratio to adjust your keyword clusterization.'.
 }
 \examples{
-hello()
+kwClustersR(df,0.9)
 }
