@@ -11,8 +11,7 @@
 #'
 #' @examples kwClustersR(df,0.9)
 #'
-#' @export kwClustersR
-
+#' @export 
 kwClustersR <- function(df,ratio) {
   #Define the number of cluster you want to create
   kclusters = round(ratio * length(unique(df$Keyword)))
