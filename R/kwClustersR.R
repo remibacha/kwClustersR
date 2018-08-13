@@ -1,6 +1,8 @@
-#' @title Creates clusters from a keyword list to speed up your SEO keyword research
+#' @title Create Clusters from a Keyword List
 #'
-#' @description This package clusterize your keywords into keywords groups. It uses the Jaro Winkler distance algorithm to create clusters. You can specify the cluster ratio to manage the size of your keywords groups. Try several ratio to adjust your keyword clusterisation.
+#' @description kwClustersR regoupes your keywords into keywords clusters. It uses the Jaro–Winkler distance algorithm to create clusters. You can specify the cluster ratio to manage the size of your keywords groups. Try several ratio to adjust your keyword clusterization.
+#'
+#' @author Rémi Bacha
 #'
 #' @param df
 #' @param ratio
@@ -32,6 +34,3 @@ kwClustersR <- function(df,ratio) {
 
   View(dfClust)
 }
-
-
-
